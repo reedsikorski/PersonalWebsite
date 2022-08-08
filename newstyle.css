@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&family=Open+Sans:wght@448;454&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+li, a, button {
+    font-family: "Monsterrat", open-serif;
+    font-weight: 448;
+    font-size:16px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
