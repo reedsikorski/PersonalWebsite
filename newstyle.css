@@ -8,7 +8,7 @@
 }
 
 li, a, button {
-    font-family: "Monsterrat", open-serif;
+    font-family: "Monsterrat", sans-serif;
     font-weight: 448;
     font-size:16px;
     color: aliceblue;
@@ -20,4 +20,44 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: black;
+}
+
+.logo {
+    cursor:pointer;
+}
+
+.nav__links {
+    list-style: none;
+    background-color: black;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: black;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    background-color: black;
+    
+}
+
+.nav__links li a:hover {
+    color: aliceblue;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: aquamarine;
 }
