@@ -27,25 +27,21 @@ header {
     cursor:pointer;
 }
 
-.nav__links {
+.navbar {
     list-style: none;
     background-color: black;
 }
 
-.nav__links li {
+.navbar li {
     display: inline-block;
     padding: 0px 20px;
     background-color: black;
 }
 
-.nav__links li a {
+.navbar li a {
     transition: all 0.3s ease 0s;
     background-color: black;
     
-}
-
-.nav__links li a:hover {
-    color: aliceblue;
 }
 
 button {
